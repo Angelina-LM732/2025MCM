@@ -3,6 +3,21 @@
 **Team Control Number:** 2525966
 **Paper title:** *Analysis of the Olympic Medal Rankings*
 
+## Summary
+
+Using Summer Olympic medal data, we forecast the 2028 Los Angeles medal table, estimate which countries without a medal are most likely to win their first, link sports events to national medal counts, and assess the "great coach" effect.
+
+| Task | Method | Main finding |
+|---|---|---|
+| 2028 medal table | Countries grouped into five classes by history; stable countries forecast with linear regression + ARIMA after ADF stationarity tests; volatile countries estimated from key athletes' medal probabilities since 2000 | Compared with 2024, Cuba is most likely to improve and France to decline |
+| First-time medallists | Logistic regression on participation and competition structure | Probabilities are close; Andorra ranks first |
+| Events and medals | Apriori association rules | US strength lies in swimming and athletics; hosts tend to add events they are strong in |
+| Great-coach effect | Case analysis (Indian football, Qatari football, Brazilian tennis) | Three preconditions for investing in a famous coach |
+
+**My role:** led the modeling team.
+
+> 中文说明见下方。
+
 ## 文件 / Files
 
 | 文件 | 说明 |
